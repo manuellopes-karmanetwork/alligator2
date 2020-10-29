@@ -38,7 +38,7 @@ SCOPES = [
     "https://www.googleapis.com/auth/bigquery",
     "https://www.googleapis.com/auth/cloud-language"
 ]
-DATASET_ID = "alligator"
+DATASET_ID = "anf"
 MAX_RETRIES = 10
 MIN_TOKENS = 20
 INSIGHTS_DAYS_BACK = 540
