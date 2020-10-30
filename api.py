@@ -259,7 +259,7 @@ class API(object):
 
       sentiments.append(sentiment)
 
-    if sentiments and self.topic_clustering:
+    if sentiments and flags["topic_clustering"]:
       if sentiments:
         logging.info("Determining topics for the current batch of reviews...")
         self.topic_clustering.determine_topics(sentiments)
