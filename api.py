@@ -248,6 +248,7 @@ class API(object):
     sentiments = []
 
     for row in rows:
+      print(row)  
       sentiment = {}
       comment = row.get("f")[0].get("v")
       sentiment["comment"] = comment
