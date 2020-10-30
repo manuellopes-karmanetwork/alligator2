@@ -211,7 +211,7 @@ class TopicClustering(object):
       return tf.compat.v1.train.limit_epochs(
           # first convert to numpy due to v1 & eager incompatability
           tf.convert_to_tensor(vectors.numpy(), dtype=tf.float32),
-          num_epochs=1)
+          num_epochs=3)
 
     previous_centers = None
     score = 0
