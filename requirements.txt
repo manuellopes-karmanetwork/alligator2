@@ -3,7 +3,7 @@ oauth2client
 google-api-python-client
 babel
 pandas
-numpy
+numpy==1.18.4
 tensorflow
 tensorflow-hub
 tensorflow-text
